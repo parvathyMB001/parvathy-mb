@@ -1,0 +1,18 @@
+clear
+s=0
+i ="y"
+echo "enter 1 no:"
+read a
+echo "enter 2 no:"
+read b
+while [ $i ="y"]
+do
+echo "1. addition"
+echo "2.subtraction"
+echo "2.multiplication"
+echo "division" 
+echo "modulas"
+echo "enter choice"
+read ch
+case $ch in
+
